@@ -1,0 +1,222 @@
+{
+  "brand": {
+    "name": "એન્ટાઇટલ AI",
+    "tagline": "સરકારી યોજનાઓ, નોકરીઓ અને શિષ્યવૃત્તિ જેના માટે તમે હકદાર છો",
+    "secureBadge": "તમારી વિગતો ફક્ત તમારા ઉપકરણ પર સુરક્ષિત રહે છે"
+  },
+  "nav": {
+    "home": "મુખ્ય પૃષ્ઠ",
+    "finder": "પાત્રતા શોધક",
+    "search": "યોજનાઓ બ્રાઉઝ કરો",
+    "jobs": "સરકારી નોકરીઓ અને પરીક્ષાઓ",
+    "deadlines": "છેલ્લી તારીખો અને ચેતવણીઓ",
+    "esevai": "ઈ-સેવા માર્ગદર્શિકા",
+    "assistant": "AI સહાયક",
+    "family": "ફેમિલી મોડ",
+    "myApplications": "મારી અરજીઓ",
+    "admin": "એડમિન",
+    "language": "ભાષા"
+  },
+  "landing": {
+    "headline": "દરેક સરકારી યોજના અને શિષ્યવૃત્તિ શોધો જે તમે મેળવવા હકદાર છો",
+    "subheadline": "2 મિનિટથી ઓછા સમયમાં કેન્દ્ર અને રાજ્ય સરકારની યોજનાઓની ગણતરી. શૂન્ય વ્યક્તિગત ડેટા લિકેજ સાથે ત્વરિત પરિણામ.",
+    "startBtn": "હમણાં પાત્રતા તપાસો",
+    "familyModeBtn": "ફેમિલી સ્કીમ મોડ",
+    "myApplicationsBtn": "મારી અરજીઓ ટ્રૅક કરો",
+    "feature1Title": "100% ગોપનીયતા સુરક્ષિત",
+    "feature1Desc": "કોઈપણ સર્વર પર કોઈ વ્યક્તિગત જવાબો સંગ્રહિત નથી. ફક્ત તમારા બ્રાઉઝરમાં ગણતરી થાય છે.",
+    "feature2Title": "સચોટ નિયમ એન્જિન",
+    "feature2Desc": "શૂન્ય ભ્રમણા. સત્તાવાર સરકારી ગેઝેટ માપદંડો અનુસાર ગણતરી.",
+    "feature3Title": "અવાજ અને બહુભાષી",
+    "feature3Desc": "તમારી ભાષામાં બોલીને શોધો. સરળ સમજણ માટે ઑડિયો સુવિધા."
+  },
+  "questionnaire": {
+    "step": "Question",
+    "of": "of",
+    "privacyNotice": "🔒 Your answers stay on your device.",
+    "next": "Next",
+    "prev": "Previous",
+    "submit": "Find Matching Schemes",
+    "speakPrompt": "Start speaking...",
+    "listening": "Listening...",
+    "ocrBannerTitle": "Upload Certificate for Instant Autofill (Optional)",
+    "ocrBannerDesc": "Upload an Income or Community Certificate image to extract fields for your review before answering.",
+    "ocrUploadBtn": "Upload Certificate",
+    "ocrReviewTitle": "Review Extracted Certificate Information",
+    "ocrConfirmBtn": "Confirm & Autofill Questionnaire",
+    "questions": {
+      "age": {
+        "title": "What is your age?",
+        "placeholder": "e.g. 21",
+        "hint": "Age qualification is required for scholarships and welfare grants"
+      },
+      "gender": {
+        "title": "What is your gender?",
+        "options": {
+          "female": "Female",
+          "male": "Male",
+          "transgender": "Transgender",
+          "other": "Other"
+        }
+      },
+      "family_income": {
+        "title": "What is your annual family income? (₹)",
+        "placeholder": "e.g. 180000",
+        "hint": "Enter annual gross income as specified on your Income Certificate"
+      },
+      "community": {
+        "title": "What is your community / social category?",
+        "options": {
+          "General": "General / Open Category (OC)",
+          "BC": "Backward Classes (BC)",
+          "MBC": "Most Backward Classes (MBC)",
+          "DNC": "De-Notified Communities (DNC)",
+          "SC": "Scheduled Castes (SC)",
+          "ST": "Scheduled Tribes (ST)",
+          "SCA": "Arunthathiyar (SCA)"
+        }
+      },
+      "education": {
+        "title": "What is your current level of education?",
+        "options": {
+          "School": "School Education (Class 1 - 9)",
+          "10th pass": "10th Standard Pass (SSLC)",
+          "12th pass": "12th Standard Pass (HSC)",
+          "Diploma": "Polytechnic / Diploma",
+          "ITI": "Industrial Training Institute (ITI)",
+          "Under Graduate": "Undergraduate Degree (UG)",
+          "Post Graduate": "Postgraduate Degree (PG)"
+        }
+      },
+      "first_graduate": {
+        "title": "Are you the first graduate in your family?",
+        "options": {
+          "yes": "Yes, First Graduate",
+          "no": "No"
+        }
+      },
+      "state": {
+        "title": "What is your state of residence?",
+        "hint": "Tamil Nadu schemes currently fully supported"
+      },
+      "district": {
+        "title": "Which district do you reside in?",
+        "select": "Select your district"
+      }
+    }
+  },
+  "results": {
+    "title": "Your Scheme Match Results",
+    "summaryBenefit": "Estimated Total Annual Benefit:",
+    "schemesCount": "Eligible Schemes Found",
+    "tabs": {
+      "eligible": "Eligible",
+      "almost": "Almost Eligible",
+      "topPicks": "Top Picks"
+    },
+    "readAloud": "Read Summary Aloud",
+    "readingAloud": "Reading aloud...",
+    "stopRead": "Stop Audio",
+    "whatifTitle": "What-If Scenario Simulator",
+    "whatifDesc": "Simulate what happens if your income or education qualification changes.",
+    "newlyEligibleBadge": "Newly Eligible!",
+    "noEligible": "No schemes fully matched your current profile. Check 'Almost Eligible' to see what rules failed.",
+    "noAlmost": "No almost-eligible schemes found.",
+    "reasonTitle": "Disqualification Reason:",
+    "viewDetails": "View Scheme & Apply"
+  },
+  "schemeDetail": {
+    "back": "Back to Results",
+    "benefitAmount": "Monetary Benefit",
+    "verifiedOn": "Verified on",
+    "needsRecheck": "Needs re-check (>90 days)",
+    "aiExplainTitle": "3-Line Plain AI Summary",
+    "aiLoading": "Generating plain explanation...",
+    "officialDisclaimer": "Please confirm on the official portal before applying.",
+    "docsRequired": "Required Document Checklist",
+    "docsProgress": "Documents Ready",
+    "missingDocsTitle": "Missing Documents? How to Get Them:",
+    "applyStepsTitle": "Step-by-Step Application Guide",
+    "officialBtn": "Apply on Official Portal",
+    "shareWhatsapp": "Share on WhatsApp",
+    "deadline": "Application Deadline",
+    "noDeadline": "Rolling / Continuous Application",
+    "trackStatusTitle": "Update My Application Status:",
+    "status": {
+      "applied": "Applied",
+      "pending": "Pending / Preparing",
+      "received": "Received Benefit"
+    }
+  },
+  "family": {
+    "title": "Family Welfare Mode",
+    "subtitle": "Add family members to see pooled household benefits and individual scheme rights",
+    "incomeLabel": "Shared Annual Family Income (₹):",
+    "addMember": "Add Family Member",
+    "name": "Name",
+    "relationship": "Relationship",
+    "age": "Age",
+    "gender": "Gender",
+    "education": "Education",
+    "firstGrad": "First Graduate",
+    "calculateBtn": "Calculate All Family Benefits",
+    "summaryTitle": "Collective Family Entitlement",
+    "totalBenefit": "Total Estimated Household Annual Benefit",
+    "perMemberResults": "Individual Member Entitlements"
+  },
+  "applications": {
+    "title": "My Tracked Applications & Reminders",
+    "urgentBanner": "⚠️ Urgent Reminder: You have schemes with deadlines expiring within 14 days!",
+    "empty": "No schemes tracked yet. Visit Results or Scheme Details to track your application status.",
+    "daysLeft": "days left"
+  },
+  "admin": {
+    "loginTitle": "Admin Authentication",
+    "email": "Email",
+    "password": "Password",
+    "loginBtn": "Sign In",
+    "tabs": {
+      "schemes": "Scheme Catalog",
+      "policies": "Policy Change Diffs"
+    },
+    "addScheme": "Add New Scheme",
+    "checkNow": "Check All Portals Now",
+    "simulateDemo": "Simulate Live Change (Demo)",
+    "diffTitle": "Policy Text Diff (Old vs New)",
+    "approve": "Approve & Update Verification",
+    "reject": "Reject Change"
+  },
+  "jobs": {
+    "title": "Government Jobs & Exam Portal",
+    "subtitle": "Track UPSC, SSC, RRB, Banking, and State public service recruitment exams in one place.",
+    "applyOnline": "Apply on Official Portal",
+    "remindMe": "Remind Me",
+    "reminderSaved": "Reminder Saved",
+    "vacancies": "Total Vacancies",
+    "qualification": "Qualification",
+    "ageLimit": "Age Limit",
+    "payScale": "Pay Scale",
+    "selectionProcess": "Selection Process & Stages",
+    "howToApply": "How to Apply on Official Portal",
+    "syllabus": "Exam Pattern & Description"
+  },
+  "deadlines": {
+    "title": "Expiring Schemes & Exam Deadlines",
+    "subtitle": "Never miss an application deadline. Set instant alerts before portals close.",
+    "urgentBadge": "Urgent",
+    "warningBadge": "Closing Soon",
+    "daysLeft": "Days Left",
+    "applyNow": "Apply Online",
+    "setReminder": "Set Deadline Reminder",
+    "myReminders": "My Saved Reminders"
+  },
+  "common": {
+    "central": "Central Govt",
+    "state": "State Govt",
+    "loading": "Loading...",
+    "error": "Error encountered",
+    "serverDown": "Backend API is currently unreachable. Please verify server connection.",
+    "retry": "Retry",
+    "close": "Close"
+  }
+}
