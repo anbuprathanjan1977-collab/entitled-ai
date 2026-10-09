@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-teal: #0f766e;
+    --primary-teal-dark: #115e59;
+    --primary-teal-light: #ccfbf1;
+    --accent-yellow: #f59e0b;
+    --accent-yellow-dark: #d97706;
+    --surface-bg: #f8fafc;
+    --card-bg: #ffffff;
+  }
+
+  body {
+    font-family: 'Noto Sans', 'Noto Sans Tamil', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-tamil {
+  font-family: 'Noto Sans Tamil', 'Noto Sans', sans-serif;
+}
+
+.font-hindi {
+  font-family: 'Noto Sans Devanagari', 'Noto Sans', sans-serif;
+}
+
+/* Accessible touch targets (min 44px on mobile) */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Pulsing match ring animation */
+@keyframes ring-glow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+.ring-glow {
+  animation: ring-glow 3s ease-in-out infinite;
+}
+
+/* Custom accessible focus outline */
+:focus-visible {
+  outline: 3px solid #0d9488;
+  outline-offset: 2px;
+}
